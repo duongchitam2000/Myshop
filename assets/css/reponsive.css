@@ -1,0 +1,40 @@
+/*pc or >*/
+@media (min-width: 1023px) {
+    .sort-bar{
+        display: none;
+    }
+    .list-category
+    {
+        display: none;
+    }
+}    
+
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+         display: none;
+     }
+     .app-content{
+        padding-top: 0;
+     }
+     .pagination li{
+        margin: 0 7px;
+    } 
+    .pagination li a{
+        color: 1.2rem;
+    }
+ }
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+         display: none;}
+  }
+
+
+/* Mobile */
+@media (max-Width: 739px) {
+    .hide-on-mobile {
+         display: none;
+     }
+}
